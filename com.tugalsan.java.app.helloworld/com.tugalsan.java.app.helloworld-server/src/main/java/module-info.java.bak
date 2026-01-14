@@ -1,0 +1,26 @@
+module com.tugalsan.java.app.helloworld.server {
+    requires com.tugalsan.java.app.helloworld.shared;
+    requires javax.servlet.api;
+    requires com.tugalsan.java.core.tuple;
+    requires com.tugalsan.java.core.tomcat;
+    requires com.tugalsan.java.core.thread;
+    requires com.tugalsan.java.core.function;
+    requires com.tugalsan.java.core.union;
+    requires com.tugalsan.java.core.file.common;
+    requires com.tugalsan.java.core.list;
+    requires com.tugalsan.java.core.servlet.url;
+    requires com.tugalsan.java.core.log;
+    requires com.tugalsan.java.core.string;
+    requires com.tugalsan.java.core.servlet.gwt.webapp;
+    requires com.tugalsan.java.core.sql.col;
+    requires com.tugalsan.java.core.sql.tbl;
+    requires com.tugalsan.java.lib.boot;
+    requires com.tugalsan.java.lib.login;
+    requires com.tugalsan.java.lib.rql;
+    requires com.tugalsan.java.lib.rql.cfg;
+    requires com.tugalsan.java.lib.rql.report;
+    requires com.tugalsan.java.lib.rql.txt;
+    requires com.tugalsan.java.lib.rql.rev;
+    requires com.tugalsan.java.lib.rql.allow;
+    requires com.tugalsan.java.lib.rql.buffer;
+}
