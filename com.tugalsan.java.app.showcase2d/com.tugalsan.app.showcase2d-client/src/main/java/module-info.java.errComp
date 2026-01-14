@@ -1,0 +1,31 @@
+module com.tugalsan.java.app.showcase2d.client {
+    requires com.tugalsan.java.app.showcase2d.shared;
+    
+    requires gwt.user;
+//    requires com.tugalsan.java.api.gui;
+//    requires com.tugalsan.java.api.icon; 
+//    requires com.tugalsan.java.api.time;
+//    requires com.tugalsan.java.api.cast;
+//    requires com.tugalsan.java.api.charset;
+//    requires com.tugalsan.java.api.list;
+//    requires com.tugalsan.java.api.stream;
+//    requires com.tugalsan.java.api.thread;
+//    requires com.tugalsan.java.api.math;
+//    requires com.tugalsan.java.api.tuple;
+//    requires com.tugalsan.java.api.string;
+//    requires com.tugalsan.java.api.shape;
+//    requires com.tugalsan.java.api.runnable;
+    requires com.tugalsan.java.api.log;
+//    requires com.tugalsan.java.api.file;
+//    requires com.tugalsan.java.api.url;
+//    requires com.tugalsan.java.api.file.html;
+//    requires com.tugalsan.java.api.servlet.gwt.webapp;
+//    requires com.tugalsan.java.api.sql.cell;
+//    requires com.tugalsan.java.api.sql.col.typed;
+//    
+//    requires com.tugalsan.java.lib.acsrf;
+//    requires com.tugalsan.java.lib.login;
+//    requires com.tugalsan.java.lib.route;
+//    requires com.tugalsan.java.lib.scale;
+//    requires com.tugalsan.java.lib.resource;
+}

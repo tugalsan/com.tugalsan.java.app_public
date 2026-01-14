@@ -1,0 +1,23 @@
+module com.tugalsan.java.app.helloworld.client {
+    requires com.tugalsan.java.app.helloworld.shared;
+    requires gwt.user;
+    requires com.tugalsan.java.api.gui;
+    requires com.tugalsan.java.api.icon; 
+    requires com.tugalsan.java.api.time;
+    requires com.tugalsan.java.api.list;
+    requires com.tugalsan.java.api.tuple;
+    requires com.tugalsan.java.api.string;
+    requires com.tugalsan.java.api.function;
+    requires com.tugalsan.java.api.charset;
+    requires com.tugalsan.java.api.log;
+    requires com.tugalsan.java.api.url;
+    requires com.tugalsan.java.api.file.html;
+    requires com.tugalsan.java.api.servlet.gwt.webapp;
+    requires com.tugalsan.java.api.sql.col.typed;
+    requires com.tugalsan.java.lib.boot;
+    requires com.tugalsan.java.lib.domain;
+    requires com.tugalsan.java.lib.login;
+    requires com.tugalsan.java.lib.route;
+    requires com.tugalsan.java.lib.scale;
+    requires com.tugalsan.java.lib.resource;
+}

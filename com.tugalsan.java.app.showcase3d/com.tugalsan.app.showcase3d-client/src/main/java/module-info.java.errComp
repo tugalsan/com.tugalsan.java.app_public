@@ -1,0 +1,21 @@
+module com.tugalsan.java.app.showcase3d.client {
+    requires com.tugalsan.java.app.showcase3d.shared;
+    
+    requires gwt.user;
+    requires com.tugalsan.java.api.gui;
+    requires com.tugalsan.java.api.icon;
+    requires com.tugalsan.java.api.time;
+//    requires com.tugalsan.java.api.runnable;
+//    requires com.tugalsan.java.api.url;
+//    requires com.tugalsan.java.api.tuple;
+//    requires com.tugalsan.java.api.js;
+//    requires com.tugalsan.java.api.shape;
+    requires com.tugalsan.java.api.log;
+    requires com.tugalsan.java.api.file.html;
+    requires com.tugalsan.java.lib.boot;
+    requires com.tugalsan.java.lib.domain;
+    requires com.tugalsan.java.lib.login;
+    requires com.tugalsan.java.lib.route;
+    requires com.tugalsan.java.lib.scale;
+//    requires com.tugalsan.java.lib.resource;
+}
