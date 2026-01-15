@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.tugalsan.java</groupId>
+    <parent>
+        <groupId>com.tugalsan.java</groupId>
+        <artifactId>com.tugalsan.java.app.parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>    
     <artifactId>com.tugalsan.java.app.helloworld</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.gwtproject</groupId>
-                <artifactId>gwt</artifactId>
-                <version>2.12.2</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
     <build>
         <finalName>app-helloworld</finalName>
         <plugins>
@@ -27,58 +17,10 @@
                 <artifactId>gwt-maven-plugin</artifactId>
                 <inherited>false</inherited>
                 <configuration>
-                    <launcherDir>${basedir}/app-welcome-server/target/classes/launcherDir/</launcherDir>
+                    <launcherDir>${basedir}/com.tugalsan.java.app.helloworld-server/target/classes/launcherDir/</launcherDir>
                 </configuration>
             </plugin>
         </plugins>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.14.0</version>
-                    <configuration>
-                        <release>25</release><!--prop.jdk-->
-                        <enablePreview>true</enablePreview>
-                        <!--<compilerArgs>
-                            <arg>- -add-modules</arg>
-                            <arg>jdk.incubator.vector</arg>
-                        </compilerArgs>-->
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>net.ltgt.gwt.maven</groupId>
-                    <artifactId>gwt-maven-plugin</artifactId>
-                    <version>1.1.0</version>
-                    <extensions>true</extensions>
-                    <configuration>
-                        <sourceLevel>auto</sourceLevel><!-- gwt cannot compile up -->
-                        <failOnError>true</failOnError>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-source-plugin</artifactId>
-                    <version>3.3.1</version>
-                    <executions>
-                        <execution>
-                            <id>attach-sources</id>
-                            <phase>package</phase>
-                            <goals>
-                                <goal>jar-no-fork</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-war-plugin</artifactId>
-                    <version>3.4.0</version>
-                    <configuration>
-                        <outputDirectory>${basedir}/target/war</outputDirectory>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
     </build>
     <modules>
         <module>com.tugalsan.java.app.helloworld-shared</module>
