@@ -87,7 +87,7 @@
                 </executions>
                 <configuration>
                     <executable>java</executable>
-                    <commandlineArgs>-jar C:\git\com.tugalsan.java.trm_public\com.tugalsan.java.trm.migration.jakarta\target\com.tugalsan.trm.migration.jakarta-1.0.10-SNAPSHOT-shaded.jar C:\git\com.tugalsan.java.app_private\com.tugalsan.java.app.showcase3d/com.tugalsan.java.app.showcase3d-server/target/war/app-showcase3d.war C:/bin/tomcat/home/webapps/app-showcase3d.war</commandlineArgs>
+                    <commandlineArgs>-jar C:\git\com.tugalsan.java.trm_public\com.tugalsan.java.trm.migration.jakarta\target\com.tugalsan.java.trm.migration.jakarta-1.0.10-SNAPSHOT-shaded.jar C:\git\com.tugalsan.java.app_private\com.tugalsan.java.app.showcase3d/com.tugalsan.java.app.showcase3d-server/target/war/app-showcase3d.war C:/bin/tomcat/home/webapps/app-showcase3d.war</commandlineArgs>
                 </configuration>
             </plugin>
         </plugins>
