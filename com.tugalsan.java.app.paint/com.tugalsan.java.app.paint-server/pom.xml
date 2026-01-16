@@ -26,15 +26,15 @@
             <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.gwtproject</groupId>
             <artifactId>gwt-servlet-jakarta</artifactId>
-        </dependency>
-        <dependency>
+        </dependency>-->
+        <!--<dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
@@ -92,7 +92,7 @@
                 </executions>
                 <configuration>
                     <executable>java</executable>
-                    <commandlineArgs>-jar C:\git\com.tugalsan.java.trm_public\com.tugalsan.java.trm.migration.jakarta\target\com.tugalsan.java.trm.migration.jakarta-1.0.10-SNAPSHOT-shaded.jar C:\git\com.tugalsan.java.app_private\com.tugalsan.java.app.paint/com.tugalsan.java.app.paint-server/target/war/app-paint.war C:/bin/tomcat/home/webapps/app-paint.war</commandlineArgs>
+                    <commandlineArgs>-jar C:\git\com.tugalsan.java.trm_public\com.tugalsan.java.trm.migration.jakarta\target\com.tugalsan.java.trm.migration.jakarta-1.0.10-SNAPSHOT-shaded.jar C:\git\com.tugalsan.java.app_public\com.tugalsan.java.app.paint/com.tugalsan.java.app.paint-server/target/war/app-paint.war C:/bin/tomcat/home/webapps/app-paint.war</commandlineArgs>
                 </configuration>
             </plugin>
         </plugins>
