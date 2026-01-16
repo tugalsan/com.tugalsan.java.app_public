@@ -6,8 +6,8 @@ import com.tugalsan.java.core.servlet.gwt.webapp.server.*;
 import com.tugalsan.java.core.thread.server.sync.TS_ThreadSyncTrigger;
 import com.tugalsan.java.app.helloworld.sg.AppSGFEcho;
 import com.tugalsan.java.lib.login.server.*;
+import javax.servlet.http.HttpServletRequest;
 
-import module javax.servlet.api;
 
 public class AppSGEEcho extends TS_SGWTExecutor {
 

@@ -5,7 +5,9 @@ import com.tugalsan.java.core.log.server.TS_Log;
 import com.tugalsan.java.core.servlet.gwt.webapp.server.*;
 import com.tugalsan.java.lib.boot.server.TS_LibBootUtils;
 import java.time.Duration;
-import module javax.servlet.api;
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+import javax.servlet.annotation.WebListener;
 
 @WebListener
 public class AppServlet implements ServletContextListener {
