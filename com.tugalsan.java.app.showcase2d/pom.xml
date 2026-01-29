@@ -17,7 +17,7 @@
                 <artifactId>gwt-maven-plugin</artifactId>
                 <inherited>false</inherited>
                 <configuration>
-                    <launcherDir>${basedir}/com.tugalsan.java.app.showcase2d-server/target/classes/launcherDir/</launcherDir>
+                    <launcherDir>${project.build.directory}/${project.build.finalName}/</launcherDir>
                 </configuration>
             </plugin>
         </plugins>
